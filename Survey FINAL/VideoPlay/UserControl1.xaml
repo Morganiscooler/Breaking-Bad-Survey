@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="VideoPlay.UserControl1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:VideoPlay"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <MediaElement Margin="10" Source="C:\Users\tiger\source\repos\Survey FINAL\VideoPlay\finger.mp4" LoadedBehavior="Play"></MediaElement> 
+        
+        <MediaElement Height="100" Width="100" RenderTransformOrigin="0.5,0.5"/>
+        <MediaElement Name="mediaElement" LoadedBehavior="Manual" UnloadedBehavior="Manual" Margin="165,64,165,147" />
+
+    </Grid>
+</UserControl>
